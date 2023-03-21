@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codex-im0y.onrender.com/', {
+    const response = await fetch('https://5000-fxddev-chatgptclone-od84n5v8grv.ws-us90.gitpod.io', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
